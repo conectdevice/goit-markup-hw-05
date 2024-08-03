@@ -528,6 +528,8 @@ img {
 .footer-media-text {
 }
 .footer-form {
+    display: flex;
+    align-items: center;
 }
 
 .footer-email::placeholder {
@@ -544,7 +546,7 @@ img {
     width: 264px;
     height: 40px;
     background-color: transparent;
-    margin-right: 23px;
+    margin-right: 24px;
     padding-left: 16px;
     padding-right: 16px;
     color: #fff;
@@ -564,6 +566,9 @@ img {
     text-align: center;
     color: #fff;
     border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* модальне вікно */
